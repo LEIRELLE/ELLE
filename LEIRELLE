@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELLE Keramikk</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fefefe;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #fff8f0;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #b86b77;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            padding: 40px;
+            background-color: #fffaf5;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+        }
+
+        .contact {
+            background-color: #fff0f5;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .contact h2 {
+            color: #b86b77;
+        }
+
+        .contact p {
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>ELLE Keramikk</h1>
+        <p>Jeg lager og selger hjemmelaget keramikk med kjærlighet 💕</p>
+    </header>
+
+    <section class="gallery">
+        <img src="IMG_2037.HEIC" alt="Keramikk 1">
+        <img src="IMG_2054.HEIC" alt="Keramikk 2">
+        <img src="IMG_7584.HEIC" alt="Keramikk 3">
+        <img src="IMG_7585.HEIC" alt="Keramikk 4">
+        <img src="IMG_7588.HEIC" alt="Keramikk 5">
+        <img src="IMG_7589.HEIC" alt="Keramikk 6">
+        <img src="IMG_7592.HEIC" alt="Keramikk 7">
+        <img src="IMG_7593.HEIC" alt="Keramikk 8">
+    </section>
+
+    <section class="contact">
+        <h2>Vil du kjøpe noe?</h2>
+        <p>Send meg en melding på <a href="https://www.instagram.com/" target="_blank">Instagram</a> eller på e-post: <strong>din@email.no</strong></p>
+    </section>
+
+</body>
+</html>
