@@ -1,1 +1,109 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tallerkner – ELLE Keramikk</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      background-color: #fffaf5;
+      color: #4e3d36;
+      margin: 0;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2.5em;
+      color: #b86b77;
+      margin-bottom: 40px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .produkt {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .produkt img {
+      width: 100%;
+      max-height: 220px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .produkt h2 {
+      font-size: 1.2em;
+      color: #b86b77;
+      margin: 10px 0 5px;
+    }
+
+    .produkt p {
+      font-size: 1em;
+      margin: 0;
+    }
+
+    .tilbake {
+      display: inline-block;
+      margin: 60px auto 0;
+      text-decoration: none;
+      color: #b86b77;
+      border: 2px solid #b86b77;
+      padding: 10px 20px;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+
+    .tilbake:hover {
+      background-color: #b86b77;
+      color: white;
+    }
+
+    .center {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Tallerkner til salgs</h1>
+
+  <div class="grid">
+    <div class="produkt">
+      <img src="tallerken1.jpg" alt="Tallerken 1" />
+      <h2>Matt keramikk-tallerken</h2>
+      <p>Pris: 320 kr</p>
+    </div>
+
+    <div class="produkt">
+      <img src="tallerken2.jpg" alt="Tallerken 2" />
+      <h2>Tallerken med dekor</h2>
+      <p>Pris: 340 kr</p>
+    </div>
+
+    <div class="produkt">
+      <img src="tallerken3.jpg" alt="Tallerken 3" />
+      <h2>Liten desserttallerken</h2>
+      <p>Pris: 290 kr</p>
+    </div>
+  </div>
+
+  <div class="center">
+    <a href="produkter.html" class="tilbake">← Tilbake til produkter</a>
+  </div>
+
+</body>
+</html>
 
