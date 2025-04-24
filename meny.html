@@ -1,42 +1,60 @@
 <!DOCTYPE html>
 <html lang="no">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ELLE Keramikk – Meny</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Meny – ELLE Keramikk</title>
   <style>
     body {
-      font-family: 'Arial', sans-serif;
-      background-color: #fffaf5;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
+      font-family: 'Georgia', serif;
+      background-color: #fff8f0;
       margin: 0;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      color: #b86b77;
+      margin-bottom: 40px;
     }
 
     .menu {
       display: flex;
       flex-direction: column;
       gap: 20px;
-      background-color: #fff0f5;
-      padding: 40px;
-      border-radius: 12px;
-      box-shadow: 0 6px 16px rgba(0,0,0,0.1);
-      text-align: center;
+      align-items: center;
     }
 
     .menu a {
       text-decoration: none;
-      color: #b86b77;
-      font-size: 1.5em;
-      padding: 10px;
+      font-size: 1.4em;
+      color: #4e3d36;
+      background-color: #fdecea;
       border: 2px solid #b86b77;
-      border-radius: 8px;
-      transition: all 0.2s ease;
+      padding: 12px 24px;
+      border-radius: 12px;
+      width: 260px;
+      transition: all 0.3s;
     }
 
     .menu a:hover {
+      background-color: #b86b77;
+      color: white;
+    }
+
+    .tilbake {
+      margin-top: 40px;
+      display: inline-block;
+      text-decoration: none;
+      color: #b86b77;
+      border: 2px solid #b86b77;
+      padding: 10px 20px;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+
+    .tilbake:hover {
       background-color: #b86b77;
       color: white;
     }
@@ -44,12 +62,16 @@
 </head>
 <body>
 
+  <h1>Meny</h1>
+
   <div class="menu">
     <a href="produkter.html">Produkter</a>
-    <a href="bestilling.html">Bestill etter eget ønske</a>
+    <a href="bestill.html">Bestill etter eget ønske</a>
     <a href="om.html">Om meg</a>
     <a href="kontakt.html">Kontakt</a>
   </div>
+
+  <a class="tilbake" href="index.html">← Tilbake til forsiden</a>
 
 </body>
 </html>
