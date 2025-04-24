@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="no">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
   <title>Produkter – ELLE Keramikk</title>
   <style>
     body {
@@ -25,10 +24,14 @@
       text-align: center;
     }
 
-    .kategori h2 {
-      font-size: 1.8em;
-      margin-bottom: 20px;
+    .kategori h2 a {
+      text-decoration: none;
       color: #b86b77;
+      font-size: 1.8em;
+    }
+
+    .kategori h2 a:hover {
+      text-decoration: underline;
     }
 
     .kategori img {
@@ -36,6 +39,7 @@
       max-height: 300px;
       border-radius: 12px;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      margin-top: 15px;
     }
 
     .tilbake {
@@ -60,22 +64,22 @@
   <h1>Produkter</h1>
 
   <div class="kategori">
-    <h2>Kopper</h2>
+    <h2><a href="kopper.html">Kopper</a></h2>
     <img src="kopper.jpg" alt="Kopper" />
   </div>
 
   <div class="kategori">
-    <h2>Skåler</h2>
+    <h2><a href="skaaler.html">Skåler</a></h2>
     <img src="skaaler.jpg" alt="Skåler" />
   </div>
 
   <div class="kategori">
-    <h2>Tallerkner</h2>
+    <h2><a href="tallerkner.html">Tallerkner</a></h2>
     <img src="tallerkner.jpg" alt="Tallerkner" />
   </div>
 
   <div class="kategori">
-    <h2>Div</h2>
+    <h2><a href="div.html">Div</a></h2>
     <img src="div.jpg" alt="Diverse keramikk" />
   </div>
 
@@ -83,3 +87,4 @@
 
 </body>
 </html>
+
