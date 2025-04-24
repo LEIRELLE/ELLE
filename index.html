@@ -2,136 +2,97 @@
 <html lang="no">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>ELLE Keramikk</title>
   <style>
     body {
-      font-family: 'Georgia', serif;
-      background-image: url('bakgrunn-page-001.jpg');
-      background-size: contain;
-      background-position: top center;
-      background-repeat: no-repeat;
-      background-color: #fffaf3;
-      color: #4e3d36;
       margin: 0;
       padding: 0;
-    }
-
-    a {
-      color: #b86b77;
-      text-decoration: none;
+      font-family: 'Georgia', serif;
+      color: #4e3d36;
+      background: url('IMG_7839.jpg') no-repeat center center fixed;
+      background-size: cover;
     }
 
     header {
-      background-color: rgba(255, 248, 240, 0.92);
+      background-color: rgba(255, 255, 255, 0.85);
       padding: 60px 20px;
       text-align: center;
-      border-bottom: 4px solid #f3e1d8;
     }
 
     header h1 {
-      margin: 0;
       font-size: 3em;
       color: #b86b77;
-      letter-spacing: 1px;
+      margin: 0;
     }
 
     header p {
       font-size: 1.3em;
       margin-top: 10px;
-      max-width: 600px;
-      margin-left: auto;
-      margin-right: auto;
     }
 
-    .meny-knapp {
-      position: absolute;
-      top: 20px;
-      left: 20px;
-      background-color: #b86b77;
-      color: white;
-      padding: 12px 20px;
-      text-decoration: none;
-      border-radius: 10px;
-      font-weight: bold;
-      font-family: Arial, sans-serif;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      transition: background-color 0.3s, transform 0.2s;
-    }
-
-    .meny-knapp:hover {
-      background-color: #9f4d61;
-      transform: scale(1.05);
-    }
-
-    .gallery {
-      padding: 50px 20px;
-      background-color: rgba(255, 250, 245, 0.88);
+    .menu {
+      background-color: rgba(255, 248, 245, 0.9);
+      padding: 30px;
       text-align: center;
     }
 
-    .gallery h2 {
-      font-size: 2em;
-      margin-bottom: 20px;
+    .menu a {
+      display: block;
+      font-size: 1.2em;
       color: #b86b77;
+      text-decoration: none;
+      margin: 10px 0;
+      font-weight: bold;
     }
 
-    .gallery img {
-      width: 280px;
-      margin: 15px;
-      border-radius: 16px;
-      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
-      transition: transform 0.3s ease;
-    }
-
-    .gallery img:hover {
-      transform: scale(1.03);
+    .menu a:hover {
+      text-decoration: underline;
     }
 
     .payment {
-      background-color: rgba(255, 240, 245, 0.95);
-      padding: 50px 20px;
+      background-color: rgba(255, 255, 255, 0.9);
+      margin: 40px auto;
+      padding: 30px;
+      max-width: 600px;
+      border-radius: 10px;
       text-align: center;
     }
 
     .payment h2 {
       color: #b86b77;
-      font-size: 2em;
     }
 
     .payment p {
       font-size: 1.1em;
-      margin: 10px 0;
     }
+
   </style>
 </head>
 <body>
 
-  <!-- Menyknapp -->
-  <a href="meny.html" class="meny-knapp">☰ Meny</a>
-
   <header>
     <h1>ELLE Keramikk</h1>
-    <p>Velkommen inn i mitt lille keramikkunivers 🌸<br>
-    Her finner du håndlagde skatter skapt med hjerte og leire. Hver kopp, skål og vase har sin egen sjel – laget for deg som elsker det unike og ekte.</p>
+    <p>Jeg lager og selger hjemmelaget keramikk med kjærlighet 💕</p>
   </header>
 
-  <section class="gallery">
-    <h2>Utvalgte keramikkverk</h2>
-    <!-- Legg til egne bilder her -->
-    <img src="IMG_7589-page-001.jpg" alt="Keramikkbilde 1" />
-    <!-- Du kan legge inn flere bilder som dette -->
+  <section class="menu">
+    <a href="produkter.html">Produkter</a>
+    <a href="bestill.html">Bestill etter eget ønske</a>
+    <a href="om.html">Om meg</a>
+    <a href="kontakt.html">Kontakt</a>
   </section>
 
   <section class="payment">
     <h2>Betaling</h2>
-    <p>Send betaling med <strong>Vipps til 97437849</strong></p>
-    <p>Husk å merke betalingen med navnet på produktet</p>
-    <p>Har du spesialønsker? Skriv gjerne en melding 💌</p>
+    <p>Send betaling til <strong>Vipps 97437849</strong></p>
+    <p>Merk betalingen med <em>produktnavn</em> (f.eks. “Kopp brun”)</p>
+    <p>Du får bekreftelse på e-post eller melding etter betaling</p>
   </section>
 
 </body>
 </html>
+
 
 
 
