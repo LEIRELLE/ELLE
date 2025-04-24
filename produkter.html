@@ -9,42 +9,65 @@
       background-color: #fffaf5;
       color: #4e3d36;
       margin: 0;
-      padding: 40px;
+      padding: 40px 20px;
     }
 
     h1 {
-      color: #b86b77;
       text-align: center;
-      font-size: 2.5em;
-      margin-bottom: 40px;
+      font-size: 2.8em;
+      color: #b86b77;
+      margin-bottom: 50px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 40px;
+      max-width: 1000px;
+      margin: 0 auto;
     }
 
     .kategori {
-      margin-bottom: 60px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.1);
       text-align: center;
+      transition: transform 0.3s ease;
     }
 
-    .kategori h2 a {
+    .kategori:hover {
+      transform: scale(1.02);
+    }
+
+    .kategori h2 {
+      margin-bottom: 15px;
+    }
+
+    .kategori a {
       text-decoration: none;
       color: #b86b77;
-      font-size: 1.8em;
+      font-size: 1.4em;
+      font-weight: bold;
     }
 
-    .kategori h2 a:hover {
+    .kategori a:hover {
       text-decoration: underline;
     }
 
     .kategori img {
-      max-width: 100%;
-      max-height: 300px;
-      border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-      margin-top: 15px;
+      width: 100%;
+      height: auto;
+      max-height: 240px;
+      border-radius: 10px;
+      object-fit: cover;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+      margin-top: 10px;
     }
 
     .tilbake {
       display: inline-block;
-      margin-top: 40px;
+      margin: 60px auto 0;
       text-decoration: none;
       color: #b86b77;
       border: 2px solid #b86b77;
@@ -63,28 +86,30 @@
 
   <h1>Produkter</h1>
 
-  <div class="kategori">
-    <h2><a href="kopper.html">Kopper</a></h2>
-    <img src="kopper.jpg" alt="Kopper" />
+  <div class="grid">
+    <div class="kategori">
+      <h2><a href="kopper.html">Kopper</a></h2>
+      <img src="kopper.jpg" alt="Kopper" />
+    </div>
+    <div class="kategori">
+      <h2><a href="skaaler.html">Skåler</a></h2>
+      <img src="skaaler.jpg" alt="Skåler" />
+    </div>
+    <div class="kategori">
+      <h2><a href="tallerkner.html">Tallerkner</a></h2>
+      <img src="tallerkner.jpg" alt="Tallerkner" />
+    </div>
+    <div class="kategori">
+      <h2><a href="div.html">Div</a></h2>
+      <img src="div.jpg" alt="Diverse keramikk" />
+    </div>
   </div>
 
-  <div class="kategori">
-    <h2><a href="skaaler.html">Skåler</a></h2>
-    <img src="skaaler.jpg" alt="Skåler" />
+  <div style="text-align:center;">
+    <a href="index.html" class="tilbake">← Tilbake til forsiden</a>
   </div>
-
-  <div class="kategori">
-    <h2><a href="tallerkner.html">Tallerkner</a></h2>
-    <img src="tallerkner.jpg" alt="Tallerkner" />
-  </div>
-
-  <div class="kategori">
-    <h2><a href="div.html">Div</a></h2>
-    <img src="div.jpg" alt="Diverse keramikk" />
-  </div>
-
-  <a href="index.html" class="tilbake">← Tilbake til forsiden</a>
 
 </body>
 </html>
+
 
