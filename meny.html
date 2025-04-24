@@ -3,75 +3,55 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Meny – ELLE Keramikk</title>
+  <title>Meny</title>
   <style>
     body {
-      font-family: 'Georgia', serif;
-      background-color: #fff8f0;
       margin: 0;
-      padding: 60px 20px;
-      text-align: center;
-    }
-
-    h1 {
-      font-size: 2.5em;
-      color: #b86b77;
-      margin-bottom: 40px;
+      padding: 0;
+      font-family: 'Georgia', serif;
+      background-color: #fffaf5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
     }
 
     .menu {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-      align-items: center;
+      background-color: #fff0f5;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .menu h1 {
+      color: #b86b77;
+      margin-bottom: 30px;
     }
 
     .menu a {
+      display: block;
+      font-size: 1.3em;
+      margin: 15px 0;
+      color: #b86b77;
       text-decoration: none;
-      font-size: 1.4em;
-      color: #4e3d36;
-      background-color: #fdecea;
-      border: 2px solid #b86b77;
-      padding: 12px 24px;
-      border-radius: 12px;
-      width: 260px;
-      transition: all 0.3s;
+      font-weight: bold;
     }
 
     .menu a:hover {
-      background-color: #b86b77;
-      color: white;
-    }
-
-    .tilbake {
-      margin-top: 40px;
-      display: inline-block;
-      text-decoration: none;
-      color: #b86b77;
-      border: 2px solid #b86b77;
-      padding: 10px 20px;
-      border-radius: 10px;
-      transition: 0.3s;
-    }
-
-    .tilbake:hover {
-      background-color: #b86b77;
-      color: white;
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
 
-  <h1>Meny</h1>
-
   <div class="menu">
+    <h1>Meny</h1>
     <a href="produkter.html">Produkter</a>
     <a href="bestill.html">Bestill etter eget ønske</a>
     <a href="om.html">Om meg</a>
     <a href="kontakt.html">Kontakt</a>
   </div>
-
-  <a class="tilbake" href="index.html">← Tilbake til forsiden</a>
 
 </body>
 </html>
